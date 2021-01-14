@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="abc" layoutX="35.0" layoutY="41.0" onMouseClicked="#handle" prefHeight="85.0" prefWidth="200.0" />
+      <ListView fx:id="abc2" layoutX="250.0" layoutY="41.0" onMouseClicked="#handle2" prefHeight="85.0" prefWidth="200.0" />
+      <Label layoutX="49.0" layoutY="168.0" prefHeight="23.0" prefWidth="81.0" text="Temperature" />
+      <Label layoutX="49.0" layoutY="210.0" prefHeight="18.0" prefWidth="82.0" text="Wind" />
+      <Label layoutX="49.0" layoutY="261.0" prefHeight="18.0" prefWidth="82.0" text="Humidity" />
+      <Label fx:id="label1" layoutX="153.0" layoutY="169.0" prefHeight="18.0" prefWidth="55.0" />
+      <Label fx:id="label2" layoutX="153.0" layoutY="211.0" prefHeight="18.0" prefWidth="55.0" />
+      <Label fx:id="label3" layoutX="153.0" layoutY="262.0" prefHeight="18.0" prefWidth="55.0" />
+   </children>
+</AnchorPane>
